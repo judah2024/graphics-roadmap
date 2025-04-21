@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/judah2024/graphics-roadmap/static/css/main.b3232f17.css",
+    "main.js": "/judah2024/graphics-roadmap/static/js/main.6814c99f.js",
+    "static/js/453.5a76d933.chunk.js": "/judah2024/graphics-roadmap/static/js/453.5a76d933.chunk.js",
+    "index.html": "/judah2024/graphics-roadmap/index.html",
+    "static/media/index.cjs": "/judah2024/graphics-roadmap/static/media/index.88d9c658b5ebd0b9ee47.cjs",
+    "main.b3232f17.css.map": "/judah2024/graphics-roadmap/static/css/main.b3232f17.css.map",
+    "main.6814c99f.js.map": "/judah2024/graphics-roadmap/static/js/main.6814c99f.js.map",
+    "453.5a76d933.chunk.js.map": "/judah2024/graphics-roadmap/static/js/453.5a76d933.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3232f17.css",
+    "static/js/main.6814c99f.js"
+  ]
+}
