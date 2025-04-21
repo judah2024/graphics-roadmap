@@ -1,3 +1,4 @@
+// src/App.js 파일 확인
 import React, { useState } from 'react';
 import Header from './components/Header';
 import Calendar from './components/Calendar';
@@ -20,8 +21,10 @@ function App() {
         
         <div className="container mx-auto px-4 py-6">
           <div className="bg-white shadow-md rounded-lg p-4">
+            {/* 내비게이션 탭 */}
             <div className="border-b mb-4">
               <nav className="flex space-x-4">
+                {/* 탭 버튼들 */}
                 <button 
                   className={`py-2 px-1 -mb-px border-b-2 ${activeTab === 'calendar' ? 'border-blue-500 text-blue-600' : 'border-transparent text-gray-600'}`}
                   onClick={() => setActiveTab('calendar')}
@@ -43,6 +46,7 @@ function App() {
               </nav>
             </div>
             
+            {/* 탭 내용 */}
             {activeTab === 'calendar' && (
               <Calendar calendarData={calendarData} phases={learningData.phases} />
             )}
